@@ -1,0 +1,68 @@
+.header-grid {
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    height: 220px;
+    width: 100%;
+    background-color: #9B26D9;
+    border-radius: 0 0 10% 10%;
+    padding: 25px;
+}
+.date {
+    color: #fff;
+}
+.month {
+    color: rgba(230, 221, 221, 0.904);
+    font-size: 15px;
+}
+.option-holder {
+    color: #fff;
+    font-size: 18px;
+}
+.content-grid {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 2.5rem 0;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tab.middle {
+    border-right: 1px solid rgba(230, 221, 221, 0.904);
+    border-left: 1px solid rgba(230, 221, 221, 0.904);
+    width: 100px;
+}
+.title {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
+.todo-holder {
+    padding: 0 25px;
+    overflow-y: scroll;
+    height: 280px;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-color {
+    height: 15px;
+    width: 20px;
+    border-radius: 20%;
+}
+.todo-option {
+    display: flex;
+    justify-content: space-between;
+}
+.todo-name {
+    padding: 15px;
+    color: #14000B;
+}
